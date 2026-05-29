@@ -4,7 +4,7 @@
 
 
 [A3C2팀(13조) 예선발표.pdf](https://github.com/user-attachments/files/28395040/A3C2.13.pdf)
-
+<br>
 # 1. 프로젝트 개요
 본 프로젝트는 산업 시설 내 안전사고를 예방하고자 지능형 자율 점검 및 대피 안내 로봇 시스템을 구현한다.  
 열화상 카메라 기반 설비 과열 감지, 나방 탐색 알고리즘을 활용한 능동적 가스 누출원 추적, 가우시안 플룸 
@@ -13,7 +13,7 @@
 보고 기능으로 실시간 대응 능력을 높인다. 이를 통해 사람이 직접 접근하기 어려운 위험 구역의 안전 점검을 
 자동화하고, 사고 발생 시 신속한 대피를 지원하는 통합 시스템, 통칭 Industrial Robot Inspection & Safety 
 System, 약칭‘IRIS’를 개발하고 제안한다.
-
+<br>
 # 2. 프로젝트 목적
 ## 01. 가스 누출 및 과열 모니터링: 공장 설비 이상 감지 시스템
 
@@ -26,7 +26,7 @@ System, 약칭‘IRIS’를 개발하고 제안한다.
 ## 03. 쉽게 이해할 수 있는 실시간 AI 안전 리포트와 대피 안내
 
 실시간으로 안전 점검을 수행하면서 대응이 필요한 이상 상황이 발생할 경우, 수집된 센서 데이터와 AI 분석 결과를 전문 용어 없이 누구나 이해할 수 있는 언어로 가공하여 현장 작업자에게 전달한다. AI가 생성한 상황 리포트를 통해 현재 위험 수준과 행동 지침을 즉시 확인하고 대응이 가능하다는 점에서 단순 경보 시스템과는 차별화되는 핵심 기능이다.
-
+<br>
 # 3. 기존 기술 현황 및 프로젝트의 차별성 
 
 현재 존재하는 산업현장 점검 기술에는 ‘SAFETY GUARD’ 서비스, 현대건설의 공사현장 모니터링 로봇  
@@ -34,15 +34,15 @@ System, 약칭‘IRIS’를 개발하고 제안한다.
 이러한 기존 서비스들에 비교하여 본 프로젝트가 추구하는 지향점과 차별점은 다음과 같다.
 <img width="620" height="345" alt="image" src="https://github.com/user-attachments/assets/73b4646a-0255-4fb2-abcd-91344a32099f" />
 따라서 본 프로젝트는 위험 감지를 넘어 상황 분석과 대응 안내까지 제공하며, 다양한 산업 현장에 적용 가능한 높은 범용성을 가진다.
-
+<br>
 # 4. IRIS의 시스템 아키텍쳐
 
-1. Unity Simulator
-   | TCP connector
-3. ROS2 Local Server
-   | Fast API
+1. Unity Simulator<br>
+   | TCP connector<br>
+3. ROS2 Local Server<br>
+   | Fast API<br>
 5. Web Dashboard (LLM Report 생성)
-
+<br>
 # 5. 모듈별 개발 현황
 
 <img width="881" height="409" alt="image" src="https://github.com/user-attachments/assets/47ebdba2-dcd9-4afb-809e-56ce4f88b01b" />
@@ -53,7 +53,7 @@ System, 약칭‘IRIS’를 개발하고 제안한다.
 1. 로봇이 SLAM으로 생성한 맵을 기반으로, 맵 전체를 가장 효율적으로 반복 순찰하는 기능
 2. 순찰 도중 위험 신호(온도 이슈, 혹은 가스 이슈)를 받을 경우, 순찰을 중단하고 가장 가까운 출입구로 최단 경로 대피하는 기능
 <img width="787" height="365" alt="image" src="https://github.com/user-attachments/assets/d70e992b-73d5-4adc-8daa-6841e32dbbce" />
-
+<br>
 # 6. 앞으로 진행할 것들
 
 1. <자율주행> LLM 리포트 생성 위해 전달할 topic 구체화 및 코딩
