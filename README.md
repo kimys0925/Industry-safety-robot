@@ -1,4 +1,4 @@
-# Industry-safety-robot
+# [산업안전 지능형 자율 점검 및 대피 안내 로봇 시스템 IRIS]
 2026 캡스톤 디자인 수업 팀 프로젝트
 
 [A3C2팀(13조) 예선발표.pdf](https://github.com/user-attachments/files/28395040/A3C2.13.pdf)
